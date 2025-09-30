@@ -4,24 +4,29 @@ layout: home
 
 hero:
   name: "Chris Portfolio"
-  text: "Software Development & Game Dev"
-  tagline: "My personal portfolio and blog about software development & game dev"
-  actions:
-    - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+  text: "Coding & Game&nbsp;Dev"
+  tagline: "Persönliche Projekte, Erfahrungen und Einblicke in Softwareentwicklung & Game Development"
   image:
     src: /profile.webp
     alt: Profile Picture
+  actions:
+  - theme: brand
+    text: About Me
+    link: /about
+  - theme: alt
+    text: GitHub
+    link: https://github.com/Chris-GW
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Software Projects
+    details: An overview of my software development projects, tools, and applications.
+    link: /projects/software
+
+  - title: Game Dev Projects
+    details: My hobby projects in game development, prototypes, and Game Jam contributions.
+    link: /projects/game-dev
+
+  - title: Blog
+    details: Personal articles, experiences, and insights into software and game development.
+    link: /blog/
 ---

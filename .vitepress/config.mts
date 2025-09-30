@@ -58,6 +58,10 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/favicon-96x96.png",
+    search: {
+      provider: 'local'
+    },
+
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
