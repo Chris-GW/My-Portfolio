@@ -14,7 +14,7 @@ hero:
       text: API Examples
       link: /api-examples
   image:
-    src: /profile.jpg
+    src: /profile.png
     alt: Profil Bild
 
 features:
