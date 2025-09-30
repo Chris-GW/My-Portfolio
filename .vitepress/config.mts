@@ -5,9 +5,14 @@ export default defineConfig({
   title: 'Chris Portfolio',
   description: 'My personal portfolio and blog about software development & game dev',
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/favicon-96x96.png', sizes: '96x96' }],
+    ['link', { rel: 'apple-touch-icon', href:'/apple-touch-icon.png', sizes: '180x180' }],
+    ['link', { rel: 'shortcut icon', href: '/favicon.ico' }],
+    ['link', { rel: 'manifest', href: '/site.webmanifest' }],
   ],
   lastUpdated: true,
+  cleanUrls: true,
 
   sitemap: {
     hostname: 'https://ckramer.ddns.net',
@@ -36,7 +41,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/logo.svg',
+    logo: '/favicon.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' },
