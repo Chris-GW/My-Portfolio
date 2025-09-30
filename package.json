@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md}\"",
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,mts,cjs,ts,tsx,json,md}\"",
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
