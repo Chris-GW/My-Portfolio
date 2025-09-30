@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,md}\"",
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "prettier": "^3.6.2",
+    "vitepress": "^2.0.0-alpha.12"
+  }
+}
