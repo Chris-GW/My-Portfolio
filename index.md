@@ -14,7 +14,7 @@ hero:
       text: API Examples
       link: /api-examples
   image:
-    src: /profile.png
+    src: /profile.webp
     alt: Profile Picture
 
 features:
