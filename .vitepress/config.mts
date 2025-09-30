@@ -6,12 +6,12 @@ export default defineConfig({
   title: 'Chris Portfolio',
   description: 'Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev',
   head: [
-    ['link', { rel: 'icon', href: '/assets/logo.svg' }]
+    ['link', { rel: 'icon', href: '/logo.svg' }]
   ],
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: '/assets/logo.svg',
+    logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' },
