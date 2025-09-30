@@ -2,12 +2,37 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  lang: 'de-DE',
   title: 'Chris Portfolio',
-  description: 'Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev',
+  description: 'My personal portfolio and blog about software development & game dev',
   head: [
     ['link', { rel: 'icon', href: '/logo.svg' }]
   ],
+  lastUpdated: true,
+
+  sitemap: {
+    hostname: 'https://ckramer.ddns.net',
+  },
+
+  locales: {
+    root: {
+      label: 'English (EN)',
+      lang: 'en-US'
+    },
+    de: {
+      label: 'German (DE)',
+      lang: 'de-DE',
+      title: 'Chris Portfolio',
+      description: 'Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev',
+      themeConfig: {
+        nav: [
+          { text: 'Home', link: '/de/' },
+          { text: 'Blog', link: '/de/blog/' },
+          { text: 'Projekte', link: '/de/projects/' },
+          { text: 'Über mich', link: '/de/about' },
+        ],
+      }
+    }
+  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -15,18 +40,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Blog', link: '/blog/' },
-      { text: 'Projekte', link: '/projects/' },
-      { text: 'Über mich', link: '/about' },
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
+      { text: 'Projects', link: '/projects/' },
+      { text: 'About me', link: '/about' },
     ],
 
     socialLinks: [

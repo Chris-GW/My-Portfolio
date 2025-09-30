@@ -1,21 +1,21 @@
-# Über mich
+# About Me
 
-Hallo! Ich bin **Chris**, Softwareentwickler aus Deutschland.  
-Ich liebe es, komplexe Probleme zu lösen, neue Technologien auszuprobieren und meine Projekte zu teilen.
+Hello! I'm **Chris**, a software developer from Germany.  
+I enjoy solving complex problems, exploring new technologies, and sharing my projects.
 
-## Meine Skills
+## My Skills
 
 - **Backend:** Java, Spring Boot
 - **Frontend:** Vue.js, TypeScript, Bootstrap
-- **Datenbanken:** MySQL, MariaDB
-- **Sonstiges:** Game Development mit Godot, Full-Stack Webentwicklung
+- **Databases:** MySQL, MariaDB
+- **Other:** Game development with Godot, full-stack web development
 
-## Meine Hobbies
+## My Hobbies
 
-- Game Development & Programmieren kleiner Spiele
-- Motorrad fahren und Technik erkunden
+- Game development & programming small games
+- Riding motorcycles and exploring technology
 
-## Kontakt
+## Contact
 
 - GitHub: [github.com/Chris-GW](https://github.com/Chris-GW)
-- E-Mail: chris@example.com
+- Email: chris@example.com

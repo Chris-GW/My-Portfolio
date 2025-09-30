@@ -4,8 +4,8 @@ layout: home
 
 hero:
   name: "Chris Portfolio"
-  text: "Software Development & Game Dev"
-  tagline: "My personal portfolio and blog about software development & game dev"
+  text: "Softwareentwicklung & Game Dev"
+  tagline: "Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev"
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,7 +15,7 @@ hero:
       link: /api-examples
   image:
     src: /profile.jpg
-    alt: Profile Picture
+    alt: Profil Bild
 
 features:
   - title: Feature A
