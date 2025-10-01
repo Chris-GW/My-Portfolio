@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Chris Portfolio"
   text: "Coding & Game&nbsp;Dev"
-  tagline: "Persönliche Projekte, Erfahrungen und Einblicke in Softwareentwicklung & Game Development"
+  tagline: "Sharing personal projects, experiences, and insights in software & game development"
   image:
     src: /images/profile.webp
     alt: Profile Picture
