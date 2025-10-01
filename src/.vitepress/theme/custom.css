@@ -1,6 +1,8 @@
 /* .vitepress/theme/custom.css */
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 :root {
   --vp-nav-logo-height: 40px;
 }
