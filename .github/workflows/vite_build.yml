@@ -30,8 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0 # Not needed if lastUpdated is not enabled
+      #  with:
+      #    fetch-depth: 0 # Not needed if lastUpdated is not enabled
       # - uses: pnpm/action-setup@v3 # Uncomment this block if you're using pnpm
       #   with:
       #     version: 9 # Not needed if you've set "packageManager" in package.json
@@ -49,5 +49,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: my-portfolio-page
-          path: .vitepress/dist/
+          path: src/.vitepress/dist/
           compression-level: 6
