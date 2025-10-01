@@ -2,4 +2,5 @@
 @import "tailwindcss";
 
 :root {
+  --vp-nav-logo-height: 40px;
 }

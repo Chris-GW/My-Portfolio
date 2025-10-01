@@ -12,7 +12,7 @@ export default defineConfig({
       {
         rel: "icon",
         type: "image/png",
-        href: "/favicon-96x96.png",
+        href: "/icon/favicon-96x96.png",
         sizes: "96x96",
       },
     ],
@@ -20,7 +20,7 @@ export default defineConfig({
       "link",
       {
         rel: "apple-touch-icon",
-        href: "/apple-touch-icon.png",
+        href: "/icon/apple-touch-icon.png",
         sizes: "180x180",
       },
     ],
@@ -58,7 +58,7 @@ export default defineConfig({
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/favicon-96x96.png",
+    logo: "/icon/favicon-96x96.png",
     search: {
       provider: "local",
     },
