@@ -6,6 +6,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   title: "Chris Portfolio",
   description: "My personal portfolio and blog about software development & game dev",
+  appearance: "dark",
+  cleanUrls: true,
+  lastUpdated: false,
+
+  sitemap: {
+    hostname: "https://ckramer.ddns.net",
+  },
+
   head: [
     [
       "link",
@@ -27,34 +35,6 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
   ],
-  lastUpdated: false,
-  cleanUrls: true,
-
-  sitemap: {
-    hostname: "https://ckramer.ddns.net",
-  },
-
-  locales: {
-    root: {
-      label: "English (EN)",
-      lang: "en-US",
-    },
-    de: {
-      label: "Deutsch (DE)",
-      lang: "de-DE",
-      title: "Chris Portfolio",
-      description: "Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev",
-      themeConfig: {
-        nav: [
-          { text: "Home", link: "/de/" },
-          { text: "Blog", link: "/de/blog/" },
-          { text: "Software Projekte", link: "/de/projects/software/" },
-          { text: "Game Dev Projekte", link: "/de/projects/game-dev/" },
-          { text: "Über mich", link: "/de/about/" },
-        ],
-      },
-    },
-  },
 
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -81,6 +61,28 @@ export default defineConfig({
     footer: {
       message: undefined,
       copyright: "Copyright © 2025-present Chris",
+    },
+  },
+
+  locales: {
+    root: {
+      label: "English (EN)",
+      lang: "en-US",
+    },
+    de: {
+      label: "Deutsch (DE)",
+      lang: "de-DE",
+      title: "Chris Portfolio",
+      description: "Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev",
+      themeConfig: {
+        nav: [
+          { text: "Home", link: "/de/" },
+          { text: "Blog", link: "/de/blog/" },
+          { text: "Software Projekte", link: "/de/projects/software/" },
+          { text: "Game Dev Projekte", link: "/de/projects/game-dev/" },
+          { text: "Über mich", link: "/de/about/" },
+        ],
+      },
     },
   },
 
