@@ -48,3 +48,7 @@ features:
       width: 100%
       height: auto
 ---
+
+<!-- Needed attribution for using the feature images -->
+
+<a href="https://storyset.com/work" target="_blank" class="float-right">\*Work illustrations by Storyset</a>

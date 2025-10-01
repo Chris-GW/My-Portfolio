@@ -5,7 +5,7 @@ import "./custom.css";
 
 export default {
   extends: DefaultTheme,
-  enhanceApp({ app }) {
+  enhanceApp({ app, router, siteData }) {
     // register your custom global components
   },
 } satisfies Theme;
