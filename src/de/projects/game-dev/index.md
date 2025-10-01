@@ -1,42 +1,49 @@
 ---
-layout: page
+layout: doc
 ---
 
 <script setup>
 import ItchIoGameWidget from '../../../components/ItchIoGameWidget.vue';
 </script>
 
-# Meine Game Dev Projekte
+# Meine Game-Dev-Projekte
 
-I'm a full-stack software developer from Germany with a passion for making games in my free time. I use the Godot
-Engine and have participated in several game jams, including solo and team-based ones.
+Ich bin ein Full-Stack-Softwareentwickler aus Deutschland und habe eine Leidenschaft dafür, in meiner Freizeit Spiele zu entwickeln. Ich nutze die Godot Engine und habe an mehreren Game Jams teilgenommen, sowohl solo als auch im Team.
 
-## What I do in game projects
+## Was ich in Game-Projekten mache
 
-- 🎮 Gameplay Programming (GDScript in Godot)
-- 🧠 Game Design and System Logic
-- 🧪 Rapid Prototyping and Iteration
-- 🔧 Integrating assets, UI, and polish
+- 🎮 Gameplay-Programmierung (GDScript in Godot)
+- 🧠 Game Design und System-Logik
+- 🧪 Schnelles Prototyping und Iteration
+- 🔧 Integration von Assets, UI und Feinschliff
 
-## Experience
+## Erfahrung
 
-- 2x Solo Game Jam projects using Godot
-- 2x Team collaboration in Game Jams (Mini Jam, GMTK, etc.)
-- Years of professional software development in web applications
+- 2 Solo-Game-Jam-Projekte mit Godot
+- 2 Team-Kooperationen bei Game Jams (Mini Jam, GMTK, etc.)
+- Mehrjährige Berufserfahrung in der Softwareentwicklung von Webanwendungen
 
-## I love working on
+Ich freue mich immer, mich zu vernetzen, zu lernen und gemeinsam coole Projekte während Game Jams zu entwickeln.
 
-- Mechanic-first game ideas
-- Polished, responsive gameplay loops
-- Small, complete jam games that feel fun to play
-
-Always happy to connect, learn, and build cool stuff with others during game jams.
+## Kostenlose spielbare Spiele
 
 <div class="flex flex-col space-y-6 my-6">
+  <ItchIoGameWidget :gameId="3875408">
+    <a href="https://chris-gw.itch.io/patch-notes-v10-jam-game">Murphy The Mad Swordsman by Chris, Haris Jahangir, Wolfenklein212, Bardin56o</a>
+  </ItchIoGameWidget>
   <ItchIoGameWidget :gameId="3847215">
     <a href="https://chris-gw.itch.io/cookie-heist">Cookie Heist by Chris, FanDevs, skidnney</a>
   </ItchIoGameWidget>
+  <ItchIoGameWidget :gameId="3760763">
+    <a href="https://dreamhost.itch.io/serpentime">SerpenTime by Dreamhost, Sheepy, Chris, Yametsu</a>
+  </ItchIoGameWidget>
+  <ItchIoGameWidget :gameId="3755717">
+    <a href="https://chris-gw.itch.io/egg-incubation-station">Egg Incubation Station by Chris, Itallo Casimiro</a>
+  </ItchIoGameWidget>
   <ItchIoGameWidget :gameId="3609600">
     <a href="https://chris-gw.itch.io/conveyor-cleanup-crew">Conveyor Cleanup Crew by Chris</a>
+  </ItchIoGameWidget>
+  <ItchIoGameWidget :gameId="3550822">
+    <a href="https://chris-gw.itch.io/dust-runner">Dust Runner by Chris</a>
   </ItchIoGameWidget>
 </div>
