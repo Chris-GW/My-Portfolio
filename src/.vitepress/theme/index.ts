@@ -1,4 +1,5 @@
 import type { Theme } from "vitepress";
+import tailwindcss from "@tailwindcss/vite";
 import DefaultTheme from "vitepress/theme";
 import "./custom.css";
 

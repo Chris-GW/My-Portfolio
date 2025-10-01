@@ -22,7 +22,7 @@ features:
     details: Eine Übersicht meiner Softwareentwicklungs-Projekte, Tools und Anwendungen.
     link: /projects/software
     linkText: Projekte ansehen
-    icon: 
+    icon:
       src: /programming-rafiki.svg
       alt: icon programming
       width: 100%

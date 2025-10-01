@@ -1,10 +1,11 @@
 import { defineConfig } from "vitepress";
+import { defineConfig as defineViteConfig } from "vite";
+import tailwindcss from "@tailwindcss/vite";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Chris Portfolio",
-  description:
-    "My personal portfolio and blog about software development & game dev",
+  description: "My personal portfolio and blog about software development & game dev",
   head: [
     [
       "link",
@@ -39,16 +40,16 @@ export default defineConfig({
       lang: "en-US",
     },
     de: {
-      label: "German (DE)",
+      label: "Deutsch (DE)",
       lang: "de-DE",
       title: "Chris Portfolio",
-      description:
-        "Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev",
+      description: "Mein persönliches Portfolio und Blog über Softwareentwicklung & Game Dev",
       themeConfig: {
         nav: [
           { text: "Home", link: "/de/" },
           { text: "Blog", link: "/de/blog/" },
-          { text: "Projekte", link: "/de/projects/" },
+          { text: "Software Projekte", link: "/de/projects/software" },
+          { text: "Game Dev Projekte", link: "/de/projects/game-dev" },
           { text: "Über mich", link: "/de/about" },
         ],
       },
@@ -65,7 +66,8 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
-      { text: "Projects", link: "/projects/" },
+      { text: "Software Projects", link: "/de/projects/software" },
+      { text: "Game Dev Projects", link: "/de/projects/game-dev" },
       { text: "About me", link: "/about" },
     ],
 
@@ -81,4 +83,8 @@ export default defineConfig({
       copyright: "Copyright © 2025-present Chris",
     },
   },
+
+  vite: defineViteConfig({
+    plugins: [tailwindcss()],
+  }),
 });

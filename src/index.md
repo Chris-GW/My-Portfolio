@@ -22,7 +22,7 @@ features:
     details: An overview of my software development projects, tools, and applications.
     link: /projects/software
     linkText: View Projects
-    icon: 
+    icon:
       src: /programming-rafiki.svg
       alt: Programming icon
       width: 100%
@@ -47,5 +47,4 @@ features:
       alt: Blog icon
       width: 100%
       height: auto
-
 ---

@@ -1,3 +1,8 @@
 {
-  "vue.server.includeLanguages": ["vue", "markdown"]
+  "vue.server.includeLanguages": ["vue", "markdown"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
