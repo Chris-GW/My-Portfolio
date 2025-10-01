@@ -1,19 +1,19 @@
-# 💻 Meine Projekte
+# My Software Projects
 
-Hier sind einige meiner aktuellen Hobby- und Arbeitsprojekte:
+Here you can find a selection of my current hobby and professional software development projects:
 
-### Space Crew Manager
+## Advent of Code
 
-space-crew-screenshot.png
+![Advent of Code Screenshot](/images/adventofcode_screenshot.webp)
 
-- **Beschreibung:** 2D Space Simulation Game in Godot, Spieler verwalten Crew & Ressourcen.
-- **Technologien:** Godot Engine, GDScript
-- [Projekt anschauen](https://github.com/deinusername/space-crew-manager)
+- **Description:** Every December, Advent of Code offers a daily two-part puzzle to solve. I use this challenge to practice my programming skills and experiment with new approaches.
+- **Technologies:** Java, code hacking, self-improvement
+- [View GitHub Repository](https://github.com/Chris-GW/Advent-of-Code)
 
-### Persönliches Portfolio (VitePress)
+## Personal Portfolio (VitePress)
 
-portfolio-screenshot.png
+![Portfolio Screenshot (VitePress)](/images/portfolio_vitepress.webp)
 
-- **Beschreibung:** Diese Website, erstellt mit VitePress, zeigt meine Skills, Blogposts und Projekte.
-- **Technologien:** Vue 3, VitePress, Markdown
-- [Projekt anschauen](https://github.com/deinusername/portfolio-vitepress)
+- **Description:** This website is my personal portfolio, built with VitePress. It showcases my skills, blog posts, and projects in a modern and accessible format.
+- **Technologies:** Vue 3, VitePress, Markdown
+- [View Project Live](https://ckramer.ddns.net)

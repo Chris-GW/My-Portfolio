@@ -48,9 +48,9 @@ export default defineConfig({
         nav: [
           { text: "Home", link: "/de/" },
           { text: "Blog", link: "/de/blog/" },
-          { text: "Software Projekte", link: "/de/projects/software" },
-          { text: "Game Dev Projekte", link: "/de/projects/game-dev" },
-          { text: "Über mich", link: "/de/about" },
+          { text: "Software Projekte", link: "/de/projects/software/" },
+          { text: "Game Dev Projekte", link: "/de/projects/game-dev/" },
+          { text: "Über mich", link: "/de/about/" },
         ],
       },
     },
@@ -66,9 +66,9 @@ export default defineConfig({
     nav: [
       { text: "Home", link: "/" },
       { text: "Blog", link: "/blog/" },
-      { text: "Software Projects", link: "/de/projects/software" },
-      { text: "Game Dev Projects", link: "/de/projects/game-dev" },
-      { text: "About me", link: "/about" },
+      { text: "Software Projects", link: "/projects/software/" },
+      { text: "Game Dev Projects", link: "/projects/game-dev/" },
+      { text: "About me", link: "/about/" },
     ],
 
     socialLinks: [
