@@ -27,7 +27,7 @@ export default defineConfig({
     ["link", { rel: "shortcut icon", href: "/favicon.ico" }],
     ["link", { rel: "manifest", href: "/site.webmanifest" }],
   ],
-  lastUpdated: true,
+  lastUpdated: false,
   cleanUrls: true,
 
   sitemap: {

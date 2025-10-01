@@ -7,7 +7,7 @@ hero:
   text: "Coding & Game&nbsp;Dev"
   tagline: "Sharing personal projects, experiences, and insights in software & game development"
   image:
-    src: /profile.webp
+    src: /images/profile.webp
     alt: Profil Bild
   actions:
     - theme: brand
@@ -23,7 +23,7 @@ features:
     link: /projects/software
     linkText: Projekte ansehen
     icon:
-      src: /programming-rafiki.svg
+      src: /images/programming-rafiki.svg
       alt: icon programming
       width: 100%
       height: auto
@@ -33,7 +33,7 @@ features:
     link: /projects/game-dev
     linkText: Mehr über meine Spiele
     icon:
-      src: /video_game_developer-rafiki.svg
+      src: /images/video_game_developer-rafiki.svg
       alt: Icon video game developer
       width: 100%
       height: auto
@@ -43,7 +43,7 @@ features:
     linkText: Blog entdecken
     link: /blog/
     icon:
-      src: /wall_post-rafiki.svg
+      src: /images/wall_post-rafiki.svg
       alt: Icon Blog
       width: 100%
       height: auto
