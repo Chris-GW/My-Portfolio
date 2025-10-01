@@ -10,12 +10,12 @@ hero:
     src: /profile.webp
     alt: Profile Picture
   actions:
-  - theme: brand
-    text: About Me
-    link: /about
-  - theme: alt
-    text: GitHub
-    link: https://github.com/Chris-GW
+    - theme: brand
+      text: About Me
+      link: /about
+    - theme: alt
+      text: GitHub
+      link: https://github.com/Chris-GW
 
 features:
   - title: Software Projects

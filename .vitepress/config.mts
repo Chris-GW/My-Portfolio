@@ -59,7 +59,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     logo: "/favicon-96x96.png",
     search: {
-      provider: 'local'
+      provider: "local",
     },
 
     nav: [
